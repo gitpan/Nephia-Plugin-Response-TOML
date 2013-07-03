@@ -1,0 +1,72 @@
+{
+   "abstract" : "A plugin for Nephia that give TOML responding feature",
+   "author" : [
+      "papix <mail@papix.net>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.5.5",
+   "license" : "perl_5",
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Nephia-Plugin-Response-TOML",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Nephia" : "0",
+            "TOML" : "0",
+            "perl" : "5.008005"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.98"
+         }
+      }
+   },
+   "provides" : {
+      "Nephia::Plugin::Response::TOML" : {
+         "file" : "lib/Nephia/Plugin/Response/TOML.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/papix/Nephia-Plugin-Response-TOML/issues"
+      },
+      "homepage" : "https://github.com/papix/Nephia-Plugin-Response-TOML",
+      "repository" : {
+         "url" : "git://github.com/papix/Nephia-Plugin-Response-TOML.git",
+         "web" : "https://github.com/papix/Nephia-Plugin-Response-TOML"
+      }
+   },
+   "version" : "0.01"
+}
