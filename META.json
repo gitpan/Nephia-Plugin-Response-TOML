@@ -40,7 +40,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Nephia" : "0",
+            "Nephia" : "0.32",
             "TOML" : "0",
             "perl" : "5.008005"
          }
@@ -54,7 +54,7 @@
    "provides" : {
       "Nephia::Plugin::Response::TOML" : {
          "file" : "lib/Nephia/Plugin/Response/TOML.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -68,5 +68,5 @@
          "web" : "https://github.com/papix/Nephia-Plugin-Response-TOML"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

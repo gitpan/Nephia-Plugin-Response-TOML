@@ -2,19 +2,19 @@ package Nephia::Plugin::Response::TOML;
 
 use 5.008005;
 use strict;
-use warnings FATAL => 'all';
+use warnings;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 use TOML ();
-use Exporter 'import';
+
 our @EXPORT = qw/ toml_res /;
 
 sub toml_res ($) {
     my $res = shift;
     my $body = TOML::to_toml($res);
     return [ 200,
-        [ 'Content-type' => 'text/toml' ],
+        ['Content-Type' => 'text/x-toml; charset=UTF-8'],
         [ $body ]
     ];
 }

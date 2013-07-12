@@ -1,5 +1,5 @@
-requires 'perl', '5.008001';
-requires 'Nephia';
+requires 'perl', '5.008005';
+requires 'Nephia', '0.32';
 requires 'TOML';
 
 on 'test' => sub {

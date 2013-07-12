@@ -1,5 +1,9 @@
 Revision history for Perl extension Nephia-Plugin-Response-TOML
 
+0.02 2013-07-12T10:55:20Z
+
+    - compliant for Nephia-0.32
+
 0.01 2013-07-03T08:36:00Z
 
     - original version

@@ -6,5 +6,6 @@ README.md
 cpanfile
 lib/Nephia/Plugin/Response/TOML.pm
 t/00_compile.t
+t/01_basic.t
 META.yml
 MANIFEST
